@@ -4,7 +4,7 @@ CLASS net/minecraft/class_6975 net/minecraft/entity/mob/WardenEntity
 		ARG 1 entity
 	METHOD method_40669 getListenSound (Lnet/minecraft/class_6975$class_6976;)Lnet/minecraft/class_3414;
 		ARG 1 angriness
-	METHOD method_40671 (Lnet/minecraft/class_1297;)Z
+	METHOD method_40671 isValidTarget (Lnet/minecraft/class_1297;)Z
 		ARG 0 entity
 	METHOD method_40676 addDarknessToClosePlayers ()V
 	METHOD method_40683 addAttributes ()Lnet/minecraft/class_5132$class_5133;

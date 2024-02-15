@@ -50,7 +50,7 @@ CLASS net/minecraft/class_4946 net/minecraft/data/client/TexturedModel
 		ARG 0 id
 	METHOD method_25921 getTextures ()Lnet/minecraft/class_4944;
 	CLASS class_4947 Factory
-		METHOD get (Lnet/minecraft/class_2248;)Lnet/minecraft/class_4946;
+		METHOD get get (Lnet/minecraft/class_2248;)Lnet/minecraft/class_4946;
 			ARG 1 block
 		METHOD method_25922 upload (Lnet/minecraft/class_2248;Ljava/lang/String;Ljava/util/function/BiConsumer;)Lnet/minecraft/class_2960;
 			ARG 1 block

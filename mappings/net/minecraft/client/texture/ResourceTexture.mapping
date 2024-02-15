@@ -18,6 +18,7 @@ CLASS net/minecraft/class_1049 net/minecraft/client/texture/ResourceTexture
 		METHOD <init> (Lnet/minecraft/class_1084;Lnet/minecraft/class_1011;)V
 			ARG 1 metadata
 			ARG 2 image
+		METHOD close close ()V
 		METHOD method_18155 getMetadata ()Lnet/minecraft/class_1084;
 		METHOD method_18156 load (Lnet/minecraft/class_3300;Lnet/minecraft/class_2960;)Lnet/minecraft/class_1049$class_4006;
 			ARG 0 resourceManager

@@ -21,10 +21,12 @@ CLASS net/minecraft/class_2499 net/minecraft/nbt/NbtList
 	METHOD <init> (Ljava/util/List;B)V
 		ARG 1 list
 		ARG 2 type
+	METHOD clear clear ()V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
-	METHOD get (I)Ljava/lang/Object;
+	METHOD get get (I)Ljava/lang/Object;
 		ARG 1 index
+	METHOD isEmpty isEmpty ()Z
 	METHOD method_10600 getInt (I)I
 		COMMENT {@return the integer at {@code index}, or {@code 0} if the index is out of bounds
 		COMMENT or if this is not a list of integers}
@@ -70,6 +72,7 @@ CLASS net/minecraft/class_2499 net/minecraft/nbt/NbtList
 		COMMENT
 		COMMENT @apiNote Modifying the returned array also modifies the NBT long array.
 		ARG 1 index
+	METHOD size size ()I
 	CLASS 1
 		METHOD method_53894 scanList (Ljava/io/DataInput;Lnet/minecraft/class_6836;Lnet/minecraft/class_2505;)Lnet/minecraft/class_6836$class_6838;
 			ARG 0 input

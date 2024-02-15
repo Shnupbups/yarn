@@ -6,5 +6,5 @@ CLASS net/minecraft/class_8851 net/minecraft/command/Forkable
 		ARG 4 flags
 		ARG 5 control
 	CLASS class_8852 RedirectModifier
-		METHOD apply (Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
+		METHOD apply apply (Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
 			ARG 1 context

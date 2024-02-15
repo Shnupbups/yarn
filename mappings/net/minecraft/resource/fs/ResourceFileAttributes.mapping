@@ -1,2 +1,9 @@
 CLASS net/minecraft/class_7666 net/minecraft/resource/fs/ResourceFileAttributes
 	FIELD field_40011 EPOCH Ljava/nio/file/attribute/FileTime;
+	METHOD creationTime creationTime ()Ljava/nio/file/attribute/FileTime;
+	METHOD fileKey fileKey ()Ljava/lang/Object;
+	METHOD isOther isOther ()Z
+	METHOD isSymbolicLink isSymbolicLink ()Z
+	METHOD lastAccessTime lastAccessTime ()Ljava/nio/file/attribute/FileTime;
+	METHOD lastModifiedTime lastModifiedTime ()Ljava/nio/file/attribute/FileTime;
+	METHOD size size ()J

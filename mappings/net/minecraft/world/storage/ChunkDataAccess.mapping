@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_5571 net/minecraft/world/storage/ChunkDataAccess
+	METHOD close close ()V
 	METHOD method_31758 awaitAll (Z)V
 		ARG 1 sync
 	METHOD method_31759 readChunkData (Lnet/minecraft/class_1923;)Ljava/util/concurrent/CompletableFuture;

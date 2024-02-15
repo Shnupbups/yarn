@@ -16,6 +16,6 @@ CLASS net/minecraft/class_9080 net/minecraft/client/gui/LayeredDrawer
 		ARG 1 context
 		ARG 2 tickDelta
 	CLASS class_9081 Layer
-		METHOD render (Lnet/minecraft/class_332;F)V
+		METHOD render render (Lnet/minecraft/class_332;F)V
 			ARG 1 context
 			ARG 2 tickDelta

@@ -4,5 +4,5 @@ CLASS net/minecraft/class_223 net/minecraft/loot/condition/MatchToolLootConditio
 		ARG 0 instance
 	METHOD method_945 builder (Lnet/minecraft/class_2073$class_2074;)Lnet/minecraft/class_5341$class_210;
 		ARG 0 predicate
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context

@@ -62,5 +62,5 @@ CLASS net/minecraft/class_1301 net/minecraft/predicate/entity/EntityPredicates
 		FIELD field_6158 stack Lnet/minecraft/class_1799;
 		METHOD <init> (Lnet/minecraft/class_1799;)V
 			ARG 1 stack
-		METHOD test (Ljava/lang/Object;)Z
+		METHOD test test (Ljava/lang/Object;)Z
 			ARG 1 context

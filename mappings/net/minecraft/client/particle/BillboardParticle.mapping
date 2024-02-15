@@ -25,7 +25,7 @@ CLASS net/minecraft/class_3940 net/minecraft/client/particle/BillboardParticle
 			ARG 0 quaternion
 			ARG 1 camera
 			ARG 2 tickDelta
-		METHOD setRotation (Lorg/joml/Quaternionf;Lnet/minecraft/class_4184;F)V
+		METHOD setRotation setRotation (Lorg/joml/Quaternionf;Lnet/minecraft/class_4184;F)V
 			ARG 1 quaternion
 			ARG 2 camera
 			ARG 3 tickDelta

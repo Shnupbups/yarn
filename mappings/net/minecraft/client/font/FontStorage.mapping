@@ -14,6 +14,7 @@ CLASS net/minecraft/class_377 net/minecraft/client/font/FontStorage
 	METHOD <init> (Lnet/minecraft/class_1060;Lnet/minecraft/class_2960;)V
 		ARG 1 textureManager
 		ARG 2 id
+	METHOD close close ()V
 	METHOD method_2004 setFonts (Ljava/util/List;Ljava/util/Set;)V
 		ARG 1 allFonts
 		ARG 2 activeFilters

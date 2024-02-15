@@ -151,5 +151,5 @@ CLASS net/minecraft/class_9139 net/minecraft/network/codec/PacketCodec
 		ARG 9 from5
 		ARG 10 to
 	CLASS class_9140 ResultFunction
-		METHOD apply (Lnet/minecraft/class_9139;)Lnet/minecraft/class_9139;
+		METHOD apply apply (Lnet/minecraft/class_9139;)Lnet/minecraft/class_9139;
 			ARG 1 codec

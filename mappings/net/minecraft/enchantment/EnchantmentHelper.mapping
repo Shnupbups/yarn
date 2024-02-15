@@ -188,6 +188,6 @@ CLASS net/minecraft/class_1890 net/minecraft/enchantment/EnchantmentHelper
 	METHOD method_8234 getEfficiency (Lnet/minecraft/class_1309;)I
 		ARG 0 entity
 	CLASS class_1891 Consumer
-		METHOD accept (Lnet/minecraft/class_1887;I)V
+		METHOD accept accept (Lnet/minecraft/class_1887;I)V
 			ARG 1 enchantment
 			ARG 2 level

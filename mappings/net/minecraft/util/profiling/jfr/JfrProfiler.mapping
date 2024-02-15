@@ -23,5 +23,5 @@ CLASS net/minecraft/class_6505 net/minecraft/util/profiling/jfr/JfrProfiler
 		ARG 1 address
 	CLASS 1
 		FIELD field_34921 innerListener Lnet/minecraft/class_6507;
-		METHOD recordingStateChanged (Ljdk/jfr/Recording;)V
+		METHOD recordingStateChanged recordingStateChanged (Ljdk/jfr/Recording;)V
 			ARG 1 recording

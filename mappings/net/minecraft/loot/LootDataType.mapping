@@ -30,7 +30,7 @@ CLASS net/minecraft/class_8490 net/minecraft/loot/LootDataType
 	METHOD method_53267 (Lnet/minecraft/class_2960;Lcom/mojang/serialization/DataResult$PartialResult;)V
 		ARG 2 result
 	CLASS class_8491 Validator
-		METHOD run (Lnet/minecraft/class_58;Lnet/minecraft/class_8488;Ljava/lang/Object;)V
+		METHOD run run (Lnet/minecraft/class_58;Lnet/minecraft/class_8488;Ljava/lang/Object;)V
 			ARG 1 reporter
 			ARG 2 key
 			ARG 3 value

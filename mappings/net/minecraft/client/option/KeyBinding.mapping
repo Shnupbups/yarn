@@ -25,7 +25,7 @@ CLASS net/minecraft/class_304 net/minecraft/client/option/KeyBinding
 		ARG 2 type
 		ARG 3 code
 		ARG 4 category
-	METHOD compareTo (Ljava/lang/Object;)I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
 		ARG 1 other
 	METHOD method_1415 isUnbound ()Z
 	METHOD method_1416 setKeyPressed (Lnet/minecraft/class_3675$class_306;Z)V

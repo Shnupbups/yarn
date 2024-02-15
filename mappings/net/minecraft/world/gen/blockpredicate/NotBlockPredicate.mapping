@@ -7,6 +7,6 @@ CLASS net/minecraft/class_6651 net/minecraft/world/gen/blockpredicate/NotBlockPr
 		ARG 0 instance
 	METHOD method_38903 (Lnet/minecraft/class_6651;)Lnet/minecraft/class_6646;
 		ARG 0 predicate
-	METHOD test (Ljava/lang/Object;Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;Ljava/lang/Object;)Z
 		ARG 1 world
 		ARG 2 pos

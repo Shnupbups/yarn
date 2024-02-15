@@ -26,6 +26,19 @@ CLASS net/minecraft/class_2156 net/minecraft/command/TranslatableBuiltInExceptio
 	FIELD field_9802 FLOAT_TOO_LOW Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
 	FIELD field_9803 READER_EXPECTED_END_QUOTE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD field_9804 READER_INVALID_FLOAT Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD dispatcherExpectedArgumentSeparator dispatcherExpectedArgumentSeparator ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD dispatcherParseException dispatcherParseException ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD dispatcherUnknownArgument dispatcherUnknownArgument ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD dispatcherUnknownCommand dispatcherUnknownCommand ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD doubleTooHigh doubleTooHigh ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD doubleTooLow doubleTooLow ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD floatTooHigh floatTooHigh ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD floatTooLow floatTooLow ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD integerTooHigh integerTooHigh ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD integerTooLow integerTooLow ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD literalIncorrect literalIncorrect ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD longTooHigh longTooHigh ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD longTooLow longTooLow ()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
 	METHOD method_18479 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 found
 		ARG 1 max
@@ -68,3 +81,17 @@ CLASS net/minecraft/class_2156 net/minecraft/command/TranslatableBuiltInExceptio
 		ARG 1 min
 	METHOD method_9191 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 character
+	METHOD readerExpectedBool readerExpectedBool ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedDouble readerExpectedDouble ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedEndOfQuote readerExpectedEndOfQuote ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedFloat readerExpectedFloat ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedInt readerExpectedInt ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedLong readerExpectedLong ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedStartOfQuote readerExpectedStartOfQuote ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD readerExpectedSymbol readerExpectedSymbol ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD readerInvalidBool readerInvalidBool ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD readerInvalidDouble readerInvalidDouble ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD readerInvalidEscape readerInvalidEscape ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD readerInvalidFloat readerInvalidFloat ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD readerInvalidInt readerInvalidInt ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD readerInvalidLong readerInvalidLong ()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;

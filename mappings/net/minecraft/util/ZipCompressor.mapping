@@ -14,6 +14,7 @@ CLASS net/minecraft/class_6397 net/minecraft/util/ZipCompressor
 		COMMENT Creates a ZIP compressor.
 		ARG 1 file
 			COMMENT the path of the ZIP file
+	METHOD close close ()V
 	METHOD method_37161 copyAll (Ljava/nio/file/Path;)V
 		COMMENT Copies the {@code source} file or directory to the root of the ZIP.
 		ARG 1 source

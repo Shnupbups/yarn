@@ -70,7 +70,7 @@ CLASS net/minecraft/class_5620 net/minecraft/block/cauldron/CauldronBehavior
 		COMMENT @see #fillCauldron
 	FIELD field_46589 BEHAVIOR_MAPS Ljava/util/Map;
 	FIELD field_46590 CODEC Lcom/mojang/serialization/Codec;
-	METHOD interact (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;)Lnet/minecraft/class_9062;
+	METHOD interact interact (Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;)Lnet/minecraft/class_9062;
 		COMMENT Called when a player interacts with a cauldron.
 		COMMENT
 		COMMENT @return a {@linkplain ItemActionResult#isAccepted successful} action result if this behavior succeeds,

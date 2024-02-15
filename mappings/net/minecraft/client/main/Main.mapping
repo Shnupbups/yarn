@@ -1,6 +1,6 @@
-CLASS net/minecraft/client/main/Main
+CLASS net/minecraft/client/main/Main net/minecraft/client/main/Main
 	FIELD field_12138 LOGGER Lorg/slf4j/Logger;
-	METHOD main ([Ljava/lang/String;)V
+	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD method_11428 getOption (Ljoptsimple/OptionSet;Ljoptsimple/OptionSpec;)Ljava/lang/Object;
 		ARG 0 optionSet
@@ -13,3 +13,9 @@ CLASS net/minecraft/client/main/Main
 		ARG 0 string
 	METHOD method_53858 unescape (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 string
+	CLASS 1
+		METHOD getPasswordAuthentication getPasswordAuthentication ()Ljava/net/PasswordAuthentication;
+	CLASS 2
+		METHOD run run ()V
+	CLASS 3
+		METHOD run run ()V

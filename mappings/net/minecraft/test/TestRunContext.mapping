@@ -71,7 +71,7 @@ CLASS net/minecraft/class_4520 net/minecraft/test/TestRunContext
 			ARG 0 states
 			ARG 1 world
 	CLASS class_9116 Batcher
-		METHOD batch (Ljava/util/Collection;)Ljava/util/Collection;
+		METHOD batch batch (Ljava/util/Collection;)Ljava/util/Collection;
 			ARG 1 states
 	CLASS class_9117 TestStructureSpawner
 		FIELD field_48491 REUSE Lnet/minecraft/class_4520$class_9117;
@@ -80,5 +80,5 @@ CLASS net/minecraft/class_4520 net/minecraft/test/TestRunContext
 			ARG 0 oldState
 		METHOD method_56240 (Lnet/minecraft/class_4517;)Ljava/util/Optional;
 			ARG 0 oldState
-		METHOD spawnStructure (Lnet/minecraft/class_4517;)Ljava/util/Optional;
+		METHOD spawnStructure spawnStructure (Lnet/minecraft/class_4517;)Ljava/util/Optional;
 			ARG 1 oldState

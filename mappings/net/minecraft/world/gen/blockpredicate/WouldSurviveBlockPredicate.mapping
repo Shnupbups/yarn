@@ -11,6 +11,6 @@ CLASS net/minecraft/class_6681 net/minecraft/world/gen/blockpredicate/WouldSurvi
 		ARG 0 predicate
 	METHOD method_39020 (Lnet/minecraft/class_6681;)Lnet/minecraft/class_2382;
 		ARG 0 predicate
-	METHOD test (Ljava/lang/Object;Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;Ljava/lang/Object;)Z
 		ARG 1 world
 		ARG 2 pos

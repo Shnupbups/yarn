@@ -17,9 +17,9 @@ CLASS net/minecraft/class_8580 net/minecraft/util/path/SymlinkFinder
 		METHOD method_52246 validate (Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)V
 			ARG 1 path
 			ARG 2 attributes
-		METHOD preVisitDirectory (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+		METHOD preVisitDirectory preVisitDirectory (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
 			ARG 1 path
 			ARG 2 attributes
-		METHOD visitFile (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+		METHOD visitFile visitFile (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
 			ARG 1 path
 			ARG 2 attributes

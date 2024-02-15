@@ -5,7 +5,7 @@ CLASS net/minecraft/class_8582 net/minecraft/util/path/AllowedSymlinkPathMatcher
 	FIELD field_44961 matcherCache Ljava/util/Map;
 	METHOD <init> (Ljava/util/List;)V
 		ARG 1 allowedEntries
-	METHOD matches (Ljava/nio/file/Path;)Z
+	METHOD matches matches (Ljava/nio/file/Path;)Z
 		ARG 1 path
 	METHOD method_52247 fromReader (Ljava/io/BufferedReader;)Lnet/minecraft/class_8582;
 		ARG 0 reader
@@ -37,7 +37,7 @@ CLASS net/minecraft/class_8582 net/minecraft/util/path/AllowedSymlinkPathMatcher
 	CLASS class_8584 EntryType
 		FIELD field_44962 DEFAULT Lnet/minecraft/class_8582$class_8584;
 		FIELD field_44963 PREFIX Lnet/minecraft/class_8582$class_8584;
-		METHOD compile (Ljava/nio/file/FileSystem;Ljava/lang/String;)Ljava/nio/file/PathMatcher;
+		METHOD compile compile (Ljava/nio/file/FileSystem;Ljava/lang/String;)Ljava/nio/file/PathMatcher;
 			ARG 1 fileSystem
 			ARG 2 pattern
 		METHOD method_52260 (Ljava/lang/String;Ljava/nio/file/Path;)Z

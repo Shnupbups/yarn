@@ -37,4 +37,5 @@ CLASS net/minecraft/class_1058 net/minecraft/client/texture/Sprite
 	METHOD method_4593 getMinV ()F
 	METHOD method_4594 getMinU ()F
 	CLASS class_7770 TickableAnimation
+		METHOD close close ()V
 		METHOD method_45853 tick ()V

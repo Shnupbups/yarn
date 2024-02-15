@@ -28,4 +28,5 @@ CLASS net/minecraft/class_3258 net/minecraft/resource/ZipResourcePack
 		FIELD field_45044 closed Z
 		METHOD <init> (Ljava/io/File;)V
 			ARG 1 file
+		METHOD close close ()V
 		METHOD method_52426 open ()Ljava/util/zip/ZipFile;

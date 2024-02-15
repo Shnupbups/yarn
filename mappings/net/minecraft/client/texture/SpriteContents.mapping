@@ -12,6 +12,7 @@ CLASS net/minecraft/class_7764 net/minecraft/client/texture/SpriteContents
 		ARG 2 dimensions
 		ARG 3 image
 		ARG 4 metadata
+	METHOD close close ()V
 	METHOD method_45808 generateMipmaps (I)V
 		ARG 1 mipmapLevels
 	METHOD method_45809 upload (II)V
@@ -43,6 +44,7 @@ CLASS net/minecraft/class_7764 net/minecraft/client/texture/SpriteContents
 	METHOD method_52848 getMetadata ()Lnet/minecraft/class_7368;
 	CLASS class_4728 Interpolation
 		FIELD field_21758 images [Lnet/minecraft/class_1011;
+		METHOD close close ()V
 		METHOD method_24128 apply (IILnet/minecraft/class_7764$class_7765;)V
 			COMMENT Linearly interpolate between the current and next frame on all mip levels
 			COMMENT based on the tick position within the current frame,

@@ -62,7 +62,7 @@ CLASS net/minecraft/class_1055 net/minecraft/client/texture/TextureStitcher
 			ARG 1 consumer
 		METHOD method_4569 getX ()I
 	CLASS class_4726 SpriteConsumer
-		METHOD load (Lnet/minecraft/class_1055$class_7769;II)V
+		METHOD load load (Lnet/minecraft/class_1055$class_7769;II)V
 			ARG 1 info
 			ARG 2 x
 			ARG 3 y

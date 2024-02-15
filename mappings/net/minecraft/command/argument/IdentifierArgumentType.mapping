@@ -4,6 +4,7 @@ CLASS net/minecraft/class_2232 net/minecraft/command/argument/IdentifierArgument
 	FIELD field_9945 UNKNOWN_ADVANCEMENT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD field_9946 EXAMPLES Ljava/util/Collection;
 	FIELD field_9947 UNKNOWN_RECIPE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
 	METHOD method_23727 getPredicateArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_5341;
 		ARG 0 context
 		ARG 1 argumentName
@@ -28,5 +29,5 @@ CLASS net/minecraft/class_2232 net/minecraft/command/argument/IdentifierArgument
 		ARG 0 id
 	METHOD method_9445 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 id
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader

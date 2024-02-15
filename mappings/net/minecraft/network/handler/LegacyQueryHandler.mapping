@@ -3,7 +3,7 @@ CLASS net/minecraft/class_3238 net/minecraft/network/handler/LegacyQueryHandler
 	FIELD field_44998 server Lnet/minecraft/class_8599;
 	METHOD <init> (Lnet/minecraft/class_8599;)V
 		ARG 1 server
-	METHOD channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V
+	METHOD channelRead channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V
 		ARG 1 ctx
 		ARG 2 msg
 	METHOD method_14344 reply (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;)V

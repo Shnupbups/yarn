@@ -6,6 +6,7 @@ CLASS net/minecraft/class_4925 net/minecraft/data/client/VariantsBlockStateSuppl
 	METHOD <init> (Lnet/minecraft/class_2248;Ljava/util/List;)V
 		ARG 1 block
 		ARG 2 variants
+	METHOD get get ()Ljava/lang/Object;
 	METHOD method_25769 create (Lnet/minecraft/class_2248;)Lnet/minecraft/class_4925;
 		ARG 0 block
 	METHOD method_25770 create (Lnet/minecraft/class_2248;Lnet/minecraft/class_4935;)Lnet/minecraft/class_4925;

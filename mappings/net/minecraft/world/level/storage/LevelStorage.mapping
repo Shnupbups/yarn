@@ -90,6 +90,7 @@ CLASS net/minecraft/class_32 net/minecraft/world/level/storage/LevelStorage
 		METHOD <init> (Lnet/minecraft/class_32;Ljava/lang/String;Ljava/nio/file/Path;)V
 			ARG 2 directoryName
 			ARG 3 path
+		METHOD close close ()V
 		METHOD method_27005 getDirectoryName ()Ljava/lang/String;
 		METHOD method_27008 save (Ljava/lang/String;)V
 			ARG 1 name
@@ -133,17 +134,18 @@ CLASS net/minecraft/class_32 net/minecraft/world/level/storage/LevelStorage
 		METHOD method_54547 levelDatExists ()Z
 		METHOD method_54548 tryRestoreBackup ()Z
 		CLASS 1
-			METHOD postVisitDirectory (Ljava/lang/Object;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
+			METHOD postVisitDirectory postVisitDirectory (Ljava/lang/Object;Ljava/io/IOException;)Ljava/nio/file/FileVisitResult;
 				ARG 1 path
 				ARG 2 exception
-			METHOD visitFile (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+			METHOD visitFile visitFile (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
 				ARG 1 path
 				ARG 2 attributes
 		CLASS 2
-			METHOD visitFile (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+			METHOD visitFile visitFile (Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
 				ARG 1 path
 				ARG 2 attributes
 	CLASS class_7410 LevelList
+		METHOD iterator iterator ()Ljava/util/Iterator;
 		METHOD method_43421 isEmpty ()Z
 	CLASS class_7411 LevelSave
 		METHOD method_43422 getRootPath ()Ljava/lang/String;

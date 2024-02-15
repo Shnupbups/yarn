@@ -4,6 +4,7 @@ CLASS net/minecraft/class_2178 net/minecraft/command/argument/TextArgumentType
 	FIELD field_9842 INVALID_COMPONENT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	METHOD <init> (Lnet/minecraft/class_7225$class_7874;)V
 		ARG 1 registryLookup
+	METHOD getExamples getExamples ()Ljava/util/Collection;
 	METHOD method_9280 getTextArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2561;
 		ARG 0 context
 		ARG 1 name
@@ -11,5 +12,5 @@ CLASS net/minecraft/class_2178 net/minecraft/command/argument/TextArgumentType
 		ARG 0 registryAccess
 	METHOD method_9282 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 text
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader

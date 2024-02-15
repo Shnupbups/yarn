@@ -14,6 +14,7 @@ CLASS net/minecraft/class_8854 net/minecraft/command/CommandExecutionContext
 		ARG 1 maxCommandChainLength
 		ARG 2 maxCommandForkCount
 		ARG 3 profiler
+	METHOD close close ()V
 	METHOD method_54390 run ()V
 	METHOD method_54391 escape (I)V
 		ARG 1 depth

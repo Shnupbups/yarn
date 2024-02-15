@@ -38,7 +38,7 @@ CLASS net/minecraft/class_2700 net/minecraft/block/pattern/BlockPattern
 		METHOD <init> (Lnet/minecraft/class_4538;Z)V
 			ARG 1 world
 			ARG 2 forceLoad
-		METHOD load (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
 			ARG 1 pos
 	CLASS class_2702 Result
 		FIELD field_12361 depth I

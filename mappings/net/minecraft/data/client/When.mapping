@@ -12,6 +12,7 @@ CLASS net/minecraft/class_4918 net/minecraft/data/client/When
 		METHOD <init> (Lnet/minecraft/class_4918$class_4920;Ljava/util/List;)V
 			ARG 1 operator
 			ARG 2 components
+		METHOD get get ()Ljava/lang/Object;
 		METHOD method_25747 (Lnet/minecraft/class_2689;Lnet/minecraft/class_4918;)V
 			ARG 1 component
 	CLASS class_4920 LogicalOperator
@@ -20,6 +21,7 @@ CLASS net/minecraft/class_4918 net/minecraft/data/client/When
 			ARG 3 name
 	CLASS class_4921 PropertyCondition
 		FIELD field_22854 properties Ljava/util/Map;
+		METHOD get get ()Ljava/lang/Object;
 		METHOD method_25750 (Lnet/minecraft/class_2689;Lnet/minecraft/class_2769;)Z
 			ARG 1 property
 		METHOD method_25751 set (Lnet/minecraft/class_2769;Ljava/lang/Comparable;)Lnet/minecraft/class_4918$class_4921;

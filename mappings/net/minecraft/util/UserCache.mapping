@@ -54,9 +54,9 @@ CLASS net/minecraft/class_3312 net/minecraft/util/UserCache
 	METHOD method_53912 getOfflinePlayerProfile (Ljava/lang/String;)Ljava/util/Optional;
 		ARG 0 name
 	CLASS 1
-		METHOD onProfileLookupFailed (Ljava/lang/String;Ljava/lang/Exception;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Ljava/lang/String;Ljava/lang/Exception;)V
 			ARG 2 exception
-		METHOD onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
 			ARG 1 profile
 	CLASS class_3313 Entry
 		FIELD field_14319 expirationDate Ljava/util/Date;

@@ -7,6 +7,6 @@ CLASS net/minecraft/class_6783 net/minecraft/world/gen/blockpredicate/InsideWorl
 		ARG 0 instance
 	METHOD method_39589 (Lnet/minecraft/class_6783;)Lnet/minecraft/class_2382;
 		ARG 0 predicate
-	METHOD test (Ljava/lang/Object;Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;Ljava/lang/Object;)Z
 		ARG 1 world
 		ARG 2 pos

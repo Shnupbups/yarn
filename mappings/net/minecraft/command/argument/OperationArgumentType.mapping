@@ -2,7 +2,8 @@ CLASS net/minecraft/class_2218 net/minecraft/command/argument/OperationArgumentT
 	FIELD field_9929 EXAMPLES Ljava/util/Collection;
 	FIELD field_9930 DIVISION_ZERO_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD field_9931 INVALID_OPERATION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder
 	METHOD method_9404 operation ()Lnet/minecraft/class_2218;
@@ -31,13 +32,13 @@ CLASS net/minecraft/class_2218 net/minecraft/command/argument/OperationArgumentT
 	METHOD method_9415 (II)I
 		ARG 0 a
 		ARG 1 b
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader
 	CLASS class_2219 Operation
-		METHOD apply (Lnet/minecraft/class_9014;Lnet/minecraft/class_9014;)V
+		METHOD apply apply (Lnet/minecraft/class_9014;Lnet/minecraft/class_9014;)V
 			ARG 1 a
 			ARG 2 b
 	CLASS class_2220 IntOperator
-		METHOD apply (II)I
+		METHOD apply apply (II)I
 			ARG 1 a
 			ARG 2 b

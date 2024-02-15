@@ -57,5 +57,5 @@ CLASS net/minecraft/class_3554 net/minecraft/world/chunk/light/LevelPropagator
 		ARG 1 a
 		ARG 2 b
 	CLASS 1
-		METHOD rehash (I)V
+		METHOD rehash rehash (I)V
 			ARG 1 newN

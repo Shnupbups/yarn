@@ -23,6 +23,7 @@ CLASS net/minecraft/class_2861 net/minecraft/world/storage/RegionFile
 		ARG 2 directory
 		ARG 3 path
 		ARG 4 dsync
+	METHOD close close ()V
 	METHOD method_12419 getSectorData (Lnet/minecraft/class_1923;)I
 		ARG 1 pos
 	METHOD method_12423 hasChunk (Lnet/minecraft/class_1923;)Z
@@ -78,4 +79,6 @@ CLASS net/minecraft/class_2861 net/minecraft/world/storage/RegionFile
 		FIELD field_17656 pos Lnet/minecraft/class_1923;
 		METHOD <init> (Lnet/minecraft/class_2861;Lnet/minecraft/class_1923;)V
 			ARG 2 pos
+		METHOD close close ()V
 	CLASS class_4549 OutputAction
+		METHOD run run ()V

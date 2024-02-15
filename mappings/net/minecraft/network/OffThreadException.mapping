@@ -9,3 +9,4 @@ CLASS net/minecraft/class_2987 net/minecraft/network/OffThreadException
 	COMMENT @see ClientConnection#channelRead0
 	FIELD field_13400 INSTANCE Lnet/minecraft/class_2987;
 		COMMENT The singleton instance, to reduce object allocations.
+	METHOD fillInStackTrace fillInStackTrace ()Ljava/lang/Throwable;

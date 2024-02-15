@@ -14,5 +14,5 @@ CLASS net/minecraft/class_2290 net/minecraft/command/argument/ItemStackArgument
 		ARG 0 item
 		ARG 1 maxCount
 	METHOD method_9785 getItem ()Lnet/minecraft/class_1792;
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 stack

@@ -19,6 +19,7 @@ CLASS net/minecraft/class_291 net/minecraft/client/gl/VertexBuffer
 	FIELD field_44792 usage Lnet/minecraft/class_291$class_8555;
 	METHOD <init> (Lnet/minecraft/class_291$class_8555;)V
 		ARG 1 usage
+	METHOD close close ()V
 	METHOD method_1352 upload (Lnet/minecraft/class_287$class_7433;)V
 		COMMENT Uploads the contents of {@code buffer} to GPU, discarding previously
 		COMMENT uploaded data.

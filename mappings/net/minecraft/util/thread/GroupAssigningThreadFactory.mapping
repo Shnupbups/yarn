@@ -12,5 +12,5 @@ CLASS net/minecraft/class_6014 net/minecraft/util/thread/GroupAssigningThreadFac
 	METHOD method_34995 (Ljava/lang/Runnable;Ljava/lang/Thread;Ljava/lang/Throwable;)V
 		ARG 1 thread
 		ARG 2 throwable
-	METHOD newThread (Ljava/lang/Runnable;)Ljava/lang/Thread;
+	METHOD newThread newThread (Ljava/lang/Runnable;)Ljava/lang/Thread;
 		ARG 1 r

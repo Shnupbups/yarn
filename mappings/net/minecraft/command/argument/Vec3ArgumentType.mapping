@@ -5,7 +5,8 @@ CLASS net/minecraft/class_2277 net/minecraft/command/argument/Vec3ArgumentType
 	FIELD field_10757 MIXED_COORDINATE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	METHOD <init> (Z)V
 		ARG 1 centerIntegers
-	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder
 	METHOD method_9734 getPosArgument (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2267;
@@ -17,5 +18,5 @@ CLASS net/minecraft/class_2277 net/minecraft/command/argument/Vec3ArgumentType
 		ARG 0 context
 		ARG 1 name
 	METHOD method_9737 vec3 ()Lnet/minecraft/class_2277;
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader

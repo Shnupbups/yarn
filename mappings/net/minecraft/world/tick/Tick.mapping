@@ -36,8 +36,8 @@ CLASS net/minecraft/class_6759 net/minecraft/world/tick/Tick
 		ARG 0 nbt
 		ARG 1 nameToType
 	CLASS 1
-		METHOD equals (Ljava/lang/Object;Ljava/lang/Object;)Z
+		METHOD equals equals (Ljava/lang/Object;Ljava/lang/Object;)Z
 			ARG 1 first
 			ARG 2 second
-		METHOD hashCode (Ljava/lang/Object;)I
+		METHOD hashCode hashCode (Ljava/lang/Object;)I
 			ARG 1 tick

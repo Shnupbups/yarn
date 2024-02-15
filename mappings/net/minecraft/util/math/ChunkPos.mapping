@@ -86,5 +86,5 @@ CLASS net/minecraft/class_1923 net/minecraft/util/math/ChunkPos
 		ARG 0 pos
 	CLASS 1
 		FIELD field_18684 position Lnet/minecraft/class_1923;
-		METHOD tryAdvance (Ljava/util/function/Consumer;)Z
+		METHOD tryAdvance tryAdvance (Ljava/util/function/Consumer;)Z
 			ARG 1 consumer

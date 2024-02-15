@@ -115,3 +115,5 @@ CLASS net/minecraft/class_3609 net/minecraft/fluid/FlowableFluid
 		ARG 0 state
 		ARG 1 world
 		ARG 2 pos
+	CLASS 1
+		METHOD rehash rehash (I)V

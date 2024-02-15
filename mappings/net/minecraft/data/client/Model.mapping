@@ -42,6 +42,6 @@ CLASS net/minecraft/class_4942 net/minecraft/data/client/Model
 	METHOD method_54828 getBlockSubModelId (Lnet/minecraft/class_2248;)Lnet/minecraft/class_2960;
 		ARG 1 block
 	CLASS class_8073 JsonFactory
-		METHOD create (Lnet/minecraft/class_2960;Ljava/util/Map;)Lcom/google/gson/JsonObject;
+		METHOD create create (Lnet/minecraft/class_2960;Ljava/util/Map;)Lcom/google/gson/JsonObject;
 			ARG 1 id
 			ARG 2 textures

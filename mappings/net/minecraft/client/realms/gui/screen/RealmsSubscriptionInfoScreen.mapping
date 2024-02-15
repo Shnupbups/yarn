@@ -32,3 +32,5 @@ CLASS net/minecraft/class_4425 net/minecraft/client/realms/gui/screen/RealmsSubs
 		ARG 1 button
 	METHOD method_25271 onDeletionConfirmed (Z)V
 		ARG 1 delete
+	CLASS 1
+		METHOD run run ()V

@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_5614 net/minecraft/client/render/block/entity/BlockEntityRendererFactory
-	METHOD create (Lnet/minecraft/class_5614$class_5615;)Lnet/minecraft/class_827;
+	METHOD create create (Lnet/minecraft/class_5614$class_5615;)Lnet/minecraft/class_827;
 		ARG 1 ctx
 	CLASS class_5615 Context
 		FIELD field_27748 renderDispatcher Lnet/minecraft/class_824;

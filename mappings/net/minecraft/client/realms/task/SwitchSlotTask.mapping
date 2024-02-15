@@ -8,3 +8,4 @@ CLASS net/minecraft/class_4443 net/minecraft/client/realms/task/SwitchSlotTask
 		ARG 1 worldId
 		ARG 3 slot
 		ARG 4 callback
+	METHOD run run ()V

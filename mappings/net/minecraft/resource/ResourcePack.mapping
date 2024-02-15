@@ -7,6 +7,7 @@ CLASS net/minecraft/class_3262 net/minecraft/resource/ResourcePack
 	COMMENT on demand.
 	FIELD field_29780 METADATA_PATH_SUFFIX Ljava/lang/String;
 	FIELD field_29781 PACK_METADATA_NAME Ljava/lang/String;
+	METHOD close close ()V
 	METHOD method_14405 open (Lnet/minecraft/class_3264;Lnet/minecraft/class_2960;)Lnet/minecraft/class_7367;
 		ARG 1 type
 		ARG 2 id

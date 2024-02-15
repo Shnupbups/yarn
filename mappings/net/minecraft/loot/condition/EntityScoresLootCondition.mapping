@@ -17,7 +17,7 @@ CLASS net/minecraft/class_199 net/minecraft/loot/condition/EntityScoresLootCondi
 		ARG 3 scoreboard
 		ARG 4 objectiveName
 		ARG 5 range
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context
 	CLASS class_6163 Builder
 		FIELD field_31869 scores Lcom/google/common/collect/ImmutableMap$Builder;

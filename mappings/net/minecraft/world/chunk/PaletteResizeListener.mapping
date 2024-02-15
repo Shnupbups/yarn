@@ -4,7 +4,7 @@ CLASS net/minecraft/class_2835 net/minecraft/world/chunk/PaletteResizeListener
 	COMMENT resize.
 	COMMENT
 	COMMENT @see Palette#index(Object)
-	METHOD onResize (ILjava/lang/Object;)I
+	METHOD onResize onResize (ILjava/lang/Object;)I
 		COMMENT Callback for a palette's request to resize to at least {@code newBits}
 		COMMENT for each entry and to update the storage correspondingly in order to
 		COMMENT accommodate the new object. After the resize is completed in this method,

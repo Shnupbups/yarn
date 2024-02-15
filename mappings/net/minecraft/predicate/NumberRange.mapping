@@ -29,11 +29,11 @@ CLASS net/minecraft/class_2096 net/minecraft/predicate/NumberRange
 		ARG 3 exceptionTypeSupplier
 		ARG 4 mapper
 	CLASS class_2097 Factory
-		METHOD create (Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/class_2096;
+		METHOD create create (Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/class_2096;
 			ARG 1 min
 			ARG 2 max
 	CLASS class_2098 CommandFactory
-		METHOD create (Lcom/mojang/brigadier/StringReader;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/class_2096;
+		METHOD create create (Lcom/mojang/brigadier/StringReader;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/class_2096;
 			ARG 1 reader
 			ARG 2 min
 			ARG 3 max

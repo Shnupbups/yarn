@@ -130,7 +130,7 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	COMMENT     Registry.register(Registries.ITEM, new Identifier("example", "bad"), myItem);
 	COMMENT }
 	COMMENT }</pre>
-	METHOD keys (Lcom/mojang/serialization/DynamicOps;)Ljava/util/stream/Stream;
+	METHOD keys keys (Lcom/mojang/serialization/DynamicOps;)Ljava/util/stream/Stream;
 		ARG 1 ops
 	METHOD method_10220 stream ()Ljava/util/stream/Stream;
 		COMMENT {@return a stream of all values of this registry}
@@ -286,5 +286,6 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	METHOD method_57065 (Lnet/minecraft/class_2960;)Lcom/mojang/serialization/DataResult;
 		ARG 1 id
 	CLASS 1
+		METHOD iterator iterator ()Ljava/util/Iterator;
 		METHOD method_46773 (Lnet/minecraft/class_6880$class_6883;)Lnet/minecraft/class_6880;
 			ARG 0 entry

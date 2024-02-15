@@ -1,7 +1,8 @@
 CLASS net/minecraft/class_2183 net/minecraft/command/argument/EntityAnchorArgumentType
 	FIELD field_9846 INVALID_ANCHOR_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD field_9847 EXAMPLES Ljava/util/Collection;
-	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder
 	METHOD method_9293 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
@@ -10,7 +11,7 @@ CLASS net/minecraft/class_2183 net/minecraft/command/argument/EntityAnchorArgume
 		ARG 0 context
 		ARG 1 name
 	METHOD method_9295 entityAnchor ()Lnet/minecraft/class_2183;
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader
 	CLASS class_2184 EntityAnchor
 		FIELD field_9848 offset Ljava/util/function/BiFunction;

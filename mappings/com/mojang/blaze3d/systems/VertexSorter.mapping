@@ -16,8 +16,8 @@ CLASS net/minecraft/class_8251 com/mojang/blaze3d/systems/VertexSorter
 		ARG 2 b
 	METHOD method_49911 (Lorg/joml/Vector3f;)F
 		ARG 0 vec
-	METHOD sort ([Lorg/joml/Vector3f;)[I
+	METHOD sort sort ([Lorg/joml/Vector3f;)[I
 		ARG 1 vec
 	CLASS class_8252 SortKeyMapper
-		METHOD apply (Lorg/joml/Vector3f;)F
+		METHOD apply apply (Lorg/joml/Vector3f;)F
 			ARG 1 vec

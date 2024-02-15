@@ -32,7 +32,7 @@ CLASS net/minecraft/class_6643 net/minecraft/world/gen/carver/CarvingMask
 		ARG 1 y
 		ARG 2 offsetZ
 	CLASS class_6828 MaskPredicate
-		METHOD test (III)Z
+		METHOD test test (III)Z
 			ARG 1 offsetX
 			ARG 2 y
 			ARG 3 offsetZ

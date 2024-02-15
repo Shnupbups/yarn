@@ -30,6 +30,7 @@ CLASS net/minecraft/class_1041 net/minecraft/client/util/Window
 		ARG 3 settings
 		ARG 4 videoMode
 		ARG 5 title
+	METHOD close close ()V
 	METHOD method_15997 setScaleFactor (D)V
 		ARG 1 scaleFactor
 	METHOD method_15998 swapBuffers ()V

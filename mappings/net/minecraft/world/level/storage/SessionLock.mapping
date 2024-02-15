@@ -6,6 +6,7 @@ CLASS net/minecraft/class_5125 net/minecraft/world/level/storage/SessionLock
 	METHOD <init> (Ljava/nio/channels/FileChannel;Ljava/nio/channels/FileLock;)V
 		ARG 1 channel
 		ARG 2 lock
+	METHOD close close ()V
 	METHOD method_26802 isValid ()Z
 	METHOD method_26803 create (Ljava/nio/file/Path;)Lnet/minecraft/class_5125;
 		ARG 0 path

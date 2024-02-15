@@ -56,7 +56,9 @@ CLASS net/minecraft/class_6885 net/minecraft/registry/entry/RegistryEntryList
 			ARG 1 entries
 	CLASS class_6887 ListBacked
 		COMMENT An internal implementation of {@link RegistryEntryList}.
+		METHOD iterator iterator ()Ljava/util/Iterator;
 		METHOD method_40249 getEntries ()Ljava/util/List;
+		METHOD spliterator spliterator ()Ljava/util/Spliterator;
 	CLASS class_6888 Named
 		COMMENT A registry entry list that references a tag from the registry.
 		FIELD field_36459 tag Lnet/minecraft/class_6862;

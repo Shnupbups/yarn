@@ -7,7 +7,7 @@ CLASS net/minecraft/class_227 net/minecraft/loot/condition/WeatherCheckLootCondi
 	METHOD method_35564 create ()Lnet/minecraft/class_227$class_6165;
 	METHOD method_53429 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 		ARG 0 instance
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context
 	CLASS class_6165 Builder
 		FIELD field_31873 raining Ljava/util/Optional;

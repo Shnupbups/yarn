@@ -6,6 +6,7 @@ CLASS net/minecraft/class_7935 net/minecraft/util/logging/LogWriter
 	METHOD <init> (Lcom/mojang/serialization/Codec;Ljava/nio/channels/FileChannel;)V
 		ARG 1 codec
 		ARG 2 channel
+	METHOD close close ()V
 	METHOD method_47566 getReader ()Lnet/minecraft/class_7936;
 	METHOD method_47567 create (Lcom/mojang/serialization/Codec;Ljava/nio/file/Path;)Lnet/minecraft/class_7935;
 		ARG 0 codec
@@ -15,3 +16,4 @@ CLASS net/minecraft/class_7935 net/minecraft/util/logging/LogWriter
 	METHOD method_47569 closeIfNotReferenced ()V
 	CLASS 1
 		FIELD field_41301 pos J
+		METHOD close close ()V

@@ -17,10 +17,10 @@ CLASS net/minecraft/class_3242 net/minecraft/server/ServerNetworkIo
 	METHOD method_14357 tick ()V
 	METHOD method_37909 getConnections ()Ljava/util/List;
 	CLASS 1
-		METHOD initChannel (Lio/netty/channel/Channel;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
 			ARG 1 channel
 	CLASS 2
-		METHOD initChannel (Lio/netty/channel/Channel;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
 			ARG 1 channel
 	CLASS class_5980 DelayingChannelInboundHandler
 		COMMENT A channel in-bound handler that only forwards received messages to the next
@@ -35,7 +35,7 @@ CLASS net/minecraft/class_3242 net/minecraft/server/ServerNetworkIo
 		METHOD <init> (II)V
 			ARG 1 baseDelay
 			ARG 2 extraDelay
-		METHOD channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V
+		METHOD channelRead channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V
 			ARG 1 ctx
 			ARG 2 msg
 		METHOD method_34880 delay (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V

@@ -4,6 +4,7 @@ CLASS net/minecraft/class_2361 net/minecraft/util/collection/IdList
 	FIELD field_11100 idMap Lit/unimi/dsi/fastutil/objects/Reference2IntMap;
 	METHOD <init> (I)V
 		ARG 1 initialSize
+	METHOD iterator iterator ()Ljava/util/Iterator;
 	METHOD method_10203 set (Ljava/lang/Object;I)V
 		ARG 1 value
 		ARG 2 id

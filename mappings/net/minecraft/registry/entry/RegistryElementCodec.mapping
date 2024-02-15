@@ -15,10 +15,10 @@ CLASS net/minecraft/class_5381 net/minecraft/registry/entry/RegistryElementCodec
 		ARG 1 registryRef
 		ARG 2 elementCodec
 		ARG 3 allowInlineDefinitions
-	METHOD decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 ops
 		ARG 2 input
-	METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 input
 		ARG 2 ops
 		ARG 3 prefix

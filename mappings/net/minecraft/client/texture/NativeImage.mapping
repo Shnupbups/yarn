@@ -22,6 +22,7 @@ CLASS net/minecraft/class_1011 net/minecraft/client/texture/NativeImage
 		ARG 3 height
 		ARG 4 useStb
 		ARG 5 pointer
+	METHOD close close ()V
 	METHOD method_22619 upload (IIIIIIIZZZZ)V
 		ARG 1 level
 		ARG 2 offsetX
@@ -262,7 +263,7 @@ CLASS net/minecraft/class_1011 net/minecraft/client/texture/NativeImage
 		FIELD field_5019 exception Ljava/io/IOException;
 		METHOD <init> (Ljava/nio/channels/WritableByteChannel;)V
 			ARG 1 channel
-		METHOD invoke (JJI)V
+		METHOD invoke invoke (JJI)V
 			ARG 1 context
 			ARG 3 data
 			ARG 5 size

@@ -50,5 +50,5 @@ CLASS net/minecraft/class_2631 net/minecraft/block/entity/SkullBlockEntity
 	METHOD method_54082 (Ljava/util/function/BooleanSupplier;Lnet/minecraft/class_7497;Ljava/util/Optional;)Ljava/util/Optional;
 		ARG 2 profile
 	CLASS 1
-		METHOD load (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
 			ARG 1 name

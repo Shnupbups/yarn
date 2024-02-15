@@ -11,5 +11,5 @@ CLASS net/minecraft/class_4568 net/minecraft/loot/condition/ReferenceLootConditi
 		ARG 3 predicate
 	METHOD method_53411 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 		ARG 0 instance
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context

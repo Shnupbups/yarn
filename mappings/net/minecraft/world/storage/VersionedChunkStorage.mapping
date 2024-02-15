@@ -8,6 +8,7 @@ CLASS net/minecraft/class_3977 net/minecraft/world/storage/VersionedChunkStorage
 		ARG 2 directory
 		ARG 3 dataFixer
 		ARG 4 dsync
+	METHOD close close ()V
 	METHOD method_17907 updateChunkNbt (Lnet/minecraft/class_5321;Ljava/util/function/Supplier;Lnet/minecraft/class_2487;Ljava/util/Optional;)Lnet/minecraft/class_2487;
 		ARG 1 worldKey
 		ARG 2 persistentStateManagerFactory

@@ -23,3 +23,4 @@ CLASS net/minecraft/class_4439 net/minecraft/client/realms/task/RealmsPrepareCon
 	METHOD method_32516 join ()Lnet/minecraft/class_4878;
 	METHOD method_55605 getResourcePackId (Lnet/minecraft/class_4877;)Ljava/util/UUID;
 		ARG 0 server
+	METHOD run run ()V

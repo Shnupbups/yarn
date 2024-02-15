@@ -11,6 +11,7 @@ CLASS net/minecraft/class_4075 net/minecraft/client/texture/SpriteAtlasHolder
 		ARG 2 atlasId
 		ARG 3 sourcePath
 		ARG 4 metadataReaders
+	METHOD close close ()V
 	METHOD method_18666 afterReload (Lnet/minecraft/class_7766$class_7767;Lnet/minecraft/class_3695;)V
 		ARG 1 stitchResult
 		ARG 2 profiler

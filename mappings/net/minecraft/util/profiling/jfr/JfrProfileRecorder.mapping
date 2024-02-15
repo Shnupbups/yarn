@@ -45,6 +45,9 @@ CLASS net/minecraft/class_6516 net/minecraft/util/profiling/jfr/JfrProfileRecord
 		ARG 1 event
 		ARG 2 bytes
 		ARG 3 chunksToCounter
+	CLASS 1
+		METHOD hasNext hasNext ()Z
+		METHOD next next ()Ljava/lang/Object;
 	CLASS class_6766 Counter
 		FIELD field_35581 totalCount J
 		FIELD field_35582 totalBytes J

@@ -90,7 +90,7 @@ CLASS net/minecraft/class_259 net/minecraft/util/shape/VoxelShapes
 		ARG 8 maxY
 		ARG 10 maxZ
 	CLASS class_260 BoxConsumer
-		METHOD consume (DDDDDD)V
+		METHOD consume consume (DDDDDD)V
 			ARG 1 minX
 			ARG 3 minY
 			ARG 5 minZ

@@ -1,4 +1,4 @@
-CLASS net/minecraft/server/MinecraftServer
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	COMMENT Represents a logical Minecraft server.
 	COMMENT
 	COMMENT <p>Since Minecraft uses a Client-Server architecture for the game, the server processes all logical game functions.
@@ -95,6 +95,7 @@ CLASS net/minecraft/server/MinecraftServer
 		ARG 6 dataFixer
 		ARG 7 apiServices
 		ARG 8 worldGenerationProgressListenerFactory
+	METHOD getServerModName getServerModName ()Ljava/lang/String;
 	METHOD method_16043 isStopping ()Z
 	METHOD method_16044 getProfiler ()Lnet/minecraft/class_3695;
 	METHOD method_16208 runTasksTillTickEnd ()V
@@ -473,5 +474,6 @@ CLASS net/minecraft/server/MinecraftServer
 			ARG 3 endTick
 	CLASS class_6897 ResourceManagerHolder
 		FIELD comp_353 dataPackContents Lnet/minecraft/class_5350;
+		METHOD close close ()V
 		METHOD comp_353 dataPackContents ()Lnet/minecraft/class_5350;
 	CLASS class_7460 ServerResourcePackProperties

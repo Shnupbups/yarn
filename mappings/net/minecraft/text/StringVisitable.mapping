@@ -5,6 +5,7 @@ CLASS net/minecraft/class_5348 net/minecraft/text/StringVisitable
 		COMMENT Convenience object indicating the termination of a string visit.
 	FIELD field_25310 EMPTY Lnet/minecraft/class_5348;
 		COMMENT An empty visitable that does not call the visitors.
+	METHOD getString getString ()Ljava/lang/String;
 	METHOD method_27657 visit (Lnet/minecraft/class_5348$class_5245;)Ljava/util/Optional;
 		COMMENT Supplies this visitable's literal content to the visitor.
 		COMMENT
@@ -44,7 +45,7 @@ CLASS net/minecraft/class_5348 net/minecraft/text/StringVisitable
 		ARG 1 string
 	CLASS class_5245 Visitor
 		COMMENT A visitor for string content.
-		METHOD accept (Ljava/lang/String;)Ljava/util/Optional;
+		METHOD accept accept (Ljava/lang/String;)Ljava/util/Optional;
 			COMMENT Visits a literal string.
 			COMMENT
 			COMMENT <p>When a {@link Optional#isPresent() present optional} is returned,
@@ -56,7 +57,7 @@ CLASS net/minecraft/class_5348 net/minecraft/text/StringVisitable
 				COMMENT the literal string
 	CLASS class_5246 StyledVisitor
 		COMMENT A visitor for string content and a contextual {@link Style}.
-		METHOD accept (Lnet/minecraft/class_2583;Ljava/lang/String;)Ljava/util/Optional;
+		METHOD accept accept (Lnet/minecraft/class_2583;Ljava/lang/String;)Ljava/util/Optional;
 			COMMENT Visits a string's content with a contextual style.
 			COMMENT
 			COMMENT <p>A contextual style is obtained by calling {@link Style#withParent(Style)}

@@ -14,5 +14,5 @@ CLASS net/minecraft/class_1866 net/minecraft/recipe/SpecialRecipeSerializer
 	METHOD method_53773 (Lnet/minecraft/class_1866$class_7711;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 		ARG 1 instance
 	CLASS class_7711 Factory
-		METHOD create (Lnet/minecraft/class_7710;)Lnet/minecraft/class_3955;
+		METHOD create create (Lnet/minecraft/class_7710;)Lnet/minecraft/class_3955;
 			ARG 1 category

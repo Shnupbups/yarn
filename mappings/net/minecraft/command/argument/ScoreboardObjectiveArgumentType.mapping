@@ -2,7 +2,8 @@ CLASS net/minecraft/class_2214 net/minecraft/command/argument/ScoreboardObjectiv
 	FIELD field_9919 EXAMPLES Ljava/util/Collection;
 	FIELD field_9921 READONLY_OBJECTIVE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD field_9922 UNKNOWN_OBJECTIVE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder
 	METHOD method_9391 scoreboardObjective ()Lnet/minecraft/class_2214;
@@ -16,5 +17,5 @@ CLASS net/minecraft/class_2214 net/minecraft/command/argument/ScoreboardObjectiv
 		ARG 1 name
 	METHOD method_9397 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 name
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader

@@ -27,7 +27,7 @@ CLASS net/minecraft/class_6385 net/minecraft/client/gui/screen/narration/ScreenN
 		ARG 0 partIndex
 	CLASS 1
 		FIELD field_33800 first Z
-		METHOD accept (Ljava/lang/Object;)V
+		METHOD accept accept (Ljava/lang/Object;)V
 			ARG 1 sentence
 	CLASS class_6386 PartIndex
 		FIELD field_33801 part Lnet/minecraft/class_6381;

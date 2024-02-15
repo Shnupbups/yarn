@@ -39,7 +39,7 @@ CLASS net/minecraft/class_3542 net/minecraft/util/StringIdentifiable
 	METHOD method_53955 createBasicCodec (Ljava/util/function/Supplier;)Lcom/mojang/serialization/Codec;
 		ARG 0 values
 	CLASS 1
-		METHOD keys (Lcom/mojang/serialization/DynamicOps;)Ljava/util/stream/Stream;
+		METHOD keys keys (Lcom/mojang/serialization/DynamicOps;)Ljava/util/stream/Stream;
 			ARG 1 ops
 	CLASS class_7292 EnumCodec
 		FIELD field_38379 idToIdentifiable Ljava/util/function/Function;
@@ -59,10 +59,10 @@ CLASS net/minecraft/class_3542 net/minecraft/util/StringIdentifiable
 			ARG 1 values
 			ARG 2 idToIdentifiable
 			ARG 3 identifiableToOrdinal
-		METHOD decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 			ARG 1 ops
 			ARG 2 input
-		METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 			ARG 1 input
 			ARG 2 ops
 			ARG 3 prefix

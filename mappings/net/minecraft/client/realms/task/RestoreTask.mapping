@@ -8,3 +8,4 @@ CLASS net/minecraft/class_4441 net/minecraft/client/realms/task/RestoreTask
 		ARG 1 backup
 		ARG 2 worldId
 		ARG 4 lastScreen
+	METHOD run run ()V

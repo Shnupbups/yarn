@@ -72,6 +72,7 @@ CLASS net/minecraft/class_3294 net/minecraft/resource/NamespaceResourceManager
 			ARG 1 parent
 			ARG 2 id
 			ARG 3 packId
+		METHOD close close ()V
 	CLASS class_7081 EntryList
 		FIELD comp_1005 id Lnet/minecraft/class_2960;
 		FIELD comp_527 metadataId Lnet/minecraft/class_2960;

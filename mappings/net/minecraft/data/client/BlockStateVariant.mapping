@@ -1,6 +1,7 @@
 CLASS net/minecraft/class_4935 net/minecraft/data/client/BlockStateVariant
 	COMMENT The supplier for a {@code ModelVariant}'s JSON representation.
 	FIELD field_22884 properties Ljava/util/Map;
+	METHOD get get ()Ljava/lang/Object;
 	METHOD method_25824 create ()Lnet/minecraft/class_4935;
 	METHOD method_25825 (Lcom/google/gson/JsonArray;Lnet/minecraft/class_4935;)V
 		ARG 1 variant

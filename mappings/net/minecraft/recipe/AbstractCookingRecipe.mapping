@@ -18,7 +18,7 @@ CLASS net/minecraft/class_1874 net/minecraft/recipe/AbstractCookingRecipe
 	METHOD method_8167 getCookingTime ()I
 	METHOD method_8171 getExperience ()F
 	CLASS class_3958 RecipeFactory
-		METHOD create (Ljava/lang/String;Lnet/minecraft/class_7709;Lnet/minecraft/class_1856;Lnet/minecraft/class_1799;FI)Lnet/minecraft/class_1874;
+		METHOD create create (Ljava/lang/String;Lnet/minecraft/class_7709;Lnet/minecraft/class_1856;Lnet/minecraft/class_1799;FI)Lnet/minecraft/class_1874;
 			ARG 1 group
 			ARG 2 category
 			ARG 3 ingredient

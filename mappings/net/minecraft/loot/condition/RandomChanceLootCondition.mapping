@@ -8,5 +8,5 @@ CLASS net/minecraft/class_219 net/minecraft/loot/condition/RandomChanceLootCondi
 		ARG 0 instance
 	METHOD method_932 builder (F)Lnet/minecraft/class_5341$class_210;
 		ARG 0 chance
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context

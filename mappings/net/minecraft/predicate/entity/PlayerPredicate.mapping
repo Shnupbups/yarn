@@ -21,7 +21,7 @@ CLASS net/minecraft/class_4553 net/minecraft/predicate/entity/PlayerPredicate
 		METHOD <init> (Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;)V
 			ARG 1 criteria
 		METHOD comp_1823 criteria ()Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;
-		METHOD test (Ljava/lang/Object;)Z
+		METHOD test test (Ljava/lang/Object;)Z
 			ARG 1 progress
 	CLASS class_4555 CompletedAdvancementPredicate
 		FIELD comp_1824 done Z
@@ -29,7 +29,7 @@ CLASS net/minecraft/class_4553 net/minecraft/predicate/entity/PlayerPredicate
 		METHOD <init> (Z)V
 			ARG 1 done
 		METHOD comp_1824 done ()Z
-		METHOD test (Ljava/lang/Object;)Z
+		METHOD test test (Ljava/lang/Object;)Z
 			ARG 1 progress
 	CLASS class_4556 AdvancementPredicate
 		FIELD field_45773 CODEC Lcom/mojang/serialization/Codec;

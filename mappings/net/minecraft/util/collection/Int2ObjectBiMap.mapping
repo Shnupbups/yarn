@@ -15,6 +15,7 @@ CLASS net/minecraft/class_3513 net/minecraft/util/collection/Int2ObjectBiMap
 		ARG 3 idToValues
 		ARG 4 nextId
 		ARG 5 size
+	METHOD iterator iterator ()Ljava/util/Iterator;
 	METHOD method_15222 getIdFromIndex (I)I
 		ARG 1 index
 	METHOD method_15223 findFree (I)I

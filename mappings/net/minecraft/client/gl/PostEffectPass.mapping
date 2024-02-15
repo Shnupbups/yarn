@@ -12,6 +12,7 @@ CLASS net/minecraft/class_283 net/minecraft/client/gl/PostEffectPass
 		ARG 2 programName
 		ARG 3 input
 		ARG 4 output
+	METHOD close close ()V
 	METHOD method_1291 setProjectionMatrix (Lorg/joml/Matrix4f;)V
 		ARG 1 projectionMatrix
 	METHOD method_1292 addAuxTarget (Ljava/lang/String;Ljava/util/function/IntSupplier;II)V

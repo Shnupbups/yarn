@@ -38,10 +38,10 @@ CLASS net/minecraft/class_7610 net/minecraft/network/message/MessageChain
 		METHOD method_46315 (Ljava/util/function/BooleanSupplier;Ljava/util/UUID;Lnet/minecraft/class_7469;Lnet/minecraft/class_7608;)Lnet/minecraft/class_7471;
 			ARG 2 signature
 			ARG 3 body
-		METHOD unpack (Lnet/minecraft/class_7469;Lnet/minecraft/class_7608;)Lnet/minecraft/class_7471;
+		METHOD unpack unpack (Lnet/minecraft/class_7469;Lnet/minecraft/class_7608;)Lnet/minecraft/class_7471;
 			ARG 1 signature
 			ARG 2 body
-		METHOD unsigned (Ljava/util/UUID;Ljava/util/function/BooleanSupplier;)Lnet/minecraft/class_7610$class_7611;
+		METHOD unsigned unsigned (Ljava/util/UUID;Ljava/util/function/BooleanSupplier;)Lnet/minecraft/class_7610$class_7611;
 			ARG 0 sender
 			ARG 1 secureProfileEnforced
 	CLASS class_7612 Packer
@@ -51,7 +51,7 @@ CLASS net/minecraft/class_7610 net/minecraft/network/message/MessageChain
 		FIELD field_40694 NONE Lnet/minecraft/class_7610$class_7612;
 		METHOD method_46316 (Lnet/minecraft/class_7608;)Lnet/minecraft/class_7469;
 			ARG 0 body
-		METHOD pack (Lnet/minecraft/class_7608;)Lnet/minecraft/class_7469;
+		METHOD pack pack (Lnet/minecraft/class_7608;)Lnet/minecraft/class_7469;
 			ARG 1 body
 	CLASS class_7825 MessageChainException
 		FIELD field_40693 shouldDisconnect Z

@@ -73,6 +73,7 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		ARG 2 entityRenderDispatcher
 		ARG 3 blockEntityRenderDispatcher
 		ARG 4 bufferBuilders
+	METHOD close close ()V
 	METHOD method_16037 scheduleSectionRender (Lnet/minecraft/class_2338;Z)V
 		ARG 1 pos
 		ARG 2 important

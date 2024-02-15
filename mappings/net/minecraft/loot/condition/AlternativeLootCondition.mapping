@@ -14,7 +14,7 @@ CLASS net/minecraft/class_186 net/minecraft/loot/condition/AlternativeLootCondit
 		ARG 0 condition
 	METHOD method_53410 createInlineCodec (Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;
 		ARG 0 termsToCondition
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context
 	CLASS class_187 Builder
 		FIELD field_1248 terms Lcom/google/common/collect/ImmutableList$Builder;

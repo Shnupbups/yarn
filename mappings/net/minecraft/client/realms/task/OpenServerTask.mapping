@@ -10,3 +10,4 @@ CLASS net/minecraft/class_4437 net/minecraft/client/realms/task/OpenServerTask
 		ARG 2 returnScreen
 		ARG 3 join
 		ARG 4 client
+	METHOD run run ()V

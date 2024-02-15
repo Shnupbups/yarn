@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_9125 net/minecraft/test/TestFunctionFinder
+	METHOD findTestFunctions findTestFunctions ()Ljava/util/stream/Stream;

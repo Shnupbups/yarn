@@ -14,6 +14,7 @@ CLASS net/minecraft/class_3304 net/minecraft/resource/ReloadableResourceManagerI
 	FIELD field_36391 activeManager Lnet/minecraft/class_6860;
 	METHOD <init> (Lnet/minecraft/class_3264;)V
 		ARG 1 type
+	METHOD close close ()V
 	METHOD method_14477 registerReloader (Lnet/minecraft/class_3302;)V
 		COMMENT Registers a reloader to all future reloads on this resource
 		COMMENT manager.

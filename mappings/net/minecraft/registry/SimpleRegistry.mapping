@@ -23,6 +23,7 @@ CLASS net/minecraft/class_2370 net/minecraft/registry/SimpleRegistry
 		ARG 1 key
 		ARG 2 lifecycle
 		ARG 3 intrusive
+	METHOD iterator iterator ()Ljava/util/Iterator;
 	METHOD method_39665 (Lit/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap;)V
 		ARG 0 map
 	METHOD method_40253 getValue (Lnet/minecraft/class_6880$class_6883;)Ljava/lang/Object;

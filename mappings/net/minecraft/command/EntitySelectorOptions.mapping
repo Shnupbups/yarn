@@ -151,7 +151,7 @@ CLASS net/minecraft/class_2306 net/minecraft/command/EntitySelectorOptions
 	METHOD method_9982 (Lnet/minecraft/class_2303;)V
 		ARG 0 reader
 	CLASS class_2307 SelectorHandler
-		METHOD handle (Lnet/minecraft/class_2303;)V
+		METHOD handle handle (Lnet/minecraft/class_2303;)V
 			ARG 1 reader
 	CLASS class_2308 SelectorOption
 		FIELD comp_1063 handler Lnet/minecraft/class_2306$class_2307;

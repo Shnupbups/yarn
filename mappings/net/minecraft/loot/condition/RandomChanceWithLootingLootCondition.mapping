@@ -10,5 +10,5 @@ CLASS net/minecraft/class_225 net/minecraft/loot/condition/RandomChanceWithLooti
 	METHOD method_953 builder (FF)Lnet/minecraft/class_5341$class_210;
 		ARG 0 chance
 		ARG 1 lootingMultiplier
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context

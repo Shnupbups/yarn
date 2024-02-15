@@ -34,6 +34,6 @@ CLASS net/minecraft/class_2321 net/minecraft/command/suggestion/SuggestionProvid
 		METHOD <init> (Lnet/minecraft/class_2960;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)V
 			ARG 1 id
 			ARG 2 provider
-		METHOD getSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		METHOD getSuggestions getSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 			ARG 1 context
 			ARG 2 builder

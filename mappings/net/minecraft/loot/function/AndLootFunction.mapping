@@ -5,7 +5,7 @@ CLASS net/minecraft/class_5641 net/minecraft/loot/function/AndLootFunction
 	FIELD field_45835 INLINE_CODEC Lcom/mojang/serialization/Codec;
 	METHOD <init> (Ljava/util/List;)V
 		ARG 1 terms
-	METHOD apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD apply apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 stack
 		ARG 2 context
 	METHOD method_53351 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;

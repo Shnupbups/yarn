@@ -14,3 +14,4 @@ CLASS net/minecraft/class_8844 net/minecraft/client/realms/task/CreatingSnapshot
 		ARG 4 resetWorldInfo
 		ARG 5 name
 		ARG 6 motd
+	METHOD run run ()V

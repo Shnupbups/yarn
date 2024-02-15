@@ -40,7 +40,7 @@ CLASS net/minecraft/class_1856 net/minecraft/recipe/Ingredient
 	METHOD method_8105 getMatchingStacks ()[Lnet/minecraft/class_1799;
 	METHOD method_8106 fromTag (Lnet/minecraft/class_6862;)Lnet/minecraft/class_1856;
 		ARG 0 tag
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 stack
 	CLASS class_1857 StackEntry
 		FIELD comp_1930 stack Lnet/minecraft/class_1799;

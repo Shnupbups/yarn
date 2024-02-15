@@ -35,6 +35,6 @@ CLASS net/minecraft/class_6864 net/minecraft/registry/tag/TagPacketSerializer
 		METHOD method_56532 loadTo (Lnet/minecraft/class_2378;)V
 			ARG 1 registry
 	CLASS class_6865 Loader
-		METHOD accept (Lnet/minecraft/class_6862;Ljava/util/List;)V
+		METHOD accept accept (Lnet/minecraft/class_6862;Ljava/util/List;)V
 			ARG 1 tag
 			ARG 2 entries

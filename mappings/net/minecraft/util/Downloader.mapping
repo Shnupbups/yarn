@@ -6,6 +6,7 @@ CLASS net/minecraft/class_9028 net/minecraft/util/Downloader
 	FIELD field_47679 MAX_RETAINED_CACHE_FILES I
 	METHOD <init> (Ljava/nio/file/Path;)V
 		ARG 1 directory
+	METHOD close close ()V
 	METHOD method_55485 (Lnet/minecraft/class_9028$class_9029;Lnet/minecraft/class_9028$class_9030;Ljava/util/UUID;Lnet/minecraft/class_9028$class_9031;)V
 		ARG 3 id
 		ARG 4 entry

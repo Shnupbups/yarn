@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_9119 net/minecraft/test/StructureBlockFinder
+	METHOD findStructureBlockPos findStructureBlockPos ()Ljava/util/stream/Stream;

@@ -3,7 +3,7 @@ CLASS net/minecraft/class_2543 net/minecraft/network/handler/DecoderHandler
 	FIELD field_48536 state Lnet/minecraft/class_9127;
 	METHOD <init> (Lnet/minecraft/class_9127;)V
 		ARG 1 state
-	METHOD decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V
+	METHOD decode decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V
 		ARG 1 context
 		ARG 2 buf
 		ARG 3 objects

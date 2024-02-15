@@ -10,5 +10,5 @@ CLASS net/minecraft/class_5644 net/minecraft/loot/condition/ValueCheckLootCondit
 		ARG 1 range
 	METHOD method_53428 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 		ARG 0 instance
-	METHOD test (Ljava/lang/Object;)Z
+	METHOD test test (Ljava/lang/Object;)Z
 		ARG 1 context

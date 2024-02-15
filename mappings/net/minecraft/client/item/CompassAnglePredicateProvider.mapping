@@ -41,7 +41,7 @@ CLASS net/minecraft/class_7391 net/minecraft/client/item/CompassAnglePredicatePr
 		METHOD method_27316 shouldUpdate (J)Z
 			ARG 1 time
 	CLASS class_7392 CompassTarget
-		METHOD getPos (Lnet/minecraft/class_638;Lnet/minecraft/class_1799;Lnet/minecraft/class_1297;)Lnet/minecraft/class_4208;
+		METHOD getPos getPos (Lnet/minecraft/class_638;Lnet/minecraft/class_1799;Lnet/minecraft/class_1297;)Lnet/minecraft/class_4208;
 			ARG 1 world
 			ARG 2 stack
 			ARG 3 entity

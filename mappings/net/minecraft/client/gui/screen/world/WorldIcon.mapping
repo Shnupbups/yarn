@@ -9,6 +9,7 @@ CLASS net/minecraft/class_8573 net/minecraft/client/gui/screen/world/WorldIcon
 	METHOD <init> (Lnet/minecraft/class_1060;Lnet/minecraft/class_2960;)V
 		ARG 1 textureManager
 		ARG 2 id
+	METHOD close close ()V
 	METHOD method_52198 destroy ()V
 	METHOD method_52199 load (Lnet/minecraft/class_1011;)V
 		ARG 1 image

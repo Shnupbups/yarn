@@ -53,5 +53,5 @@ CLASS net/minecraft/class_4337 net/minecraft/client/realms/FileUpload
 			ARG 1 content
 			ARG 2 length
 			ARG 4 uploadStatus
-		METHOD writeTo (Ljava/io/OutputStream;)V
+		METHOD writeTo writeTo (Ljava/io/OutputStream;)V
 			ARG 1 outstream

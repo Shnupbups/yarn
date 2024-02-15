@@ -62,7 +62,8 @@ CLASS net/minecraft/class_2474 net/minecraft/data/server/tag/TagProvider
 			ARG 1 keys
 	CLASS class_8210 RegistryInfo
 	CLASS class_8211 TagLookup
-		METHOD contains (Lnet/minecraft/class_6862;)Z
+		METHOD contains contains (Lnet/minecraft/class_6862;)Z
 			ARG 1 tag
+		METHOD empty empty ()Lnet/minecraft/class_2474$class_8211;
 		METHOD method_49664 (Lnet/minecraft/class_6862;)Ljava/util/Optional;
 			ARG 0 tag

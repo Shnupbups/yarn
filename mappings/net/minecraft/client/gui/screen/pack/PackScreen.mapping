@@ -55,6 +55,7 @@ CLASS net/minecraft/class_5375 net/minecraft/client/gui/screen/pack/PackScreen
 		FIELD field_25791 path Ljava/nio/file/Path;
 		METHOD <init> (Ljava/nio/file/Path;)V
 			ARG 1 path
+		METHOD close close ()V
 		METHOD method_30292 pollForChange ()Z
 		METHOD method_30293 create (Ljava/nio/file/Path;)Lnet/minecraft/class_5375$class_5426;
 			ARG 0 path

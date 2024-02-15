@@ -11,6 +11,7 @@ CLASS net/minecraft/class_378 net/minecraft/client/font/FontManager
 	FIELD field_49111 currentStorage Lnet/minecraft/class_377;
 	METHOD <init> (Lnet/minecraft/class_1060;)V
 		ARG 1 manager
+	METHOD close close ()V
 	METHOD method_27539 createTextRenderer ()Lnet/minecraft/class_327;
 	METHOD method_27540 (Lnet/minecraft/class_377;)V
 		ARG 0 fontStorage

@@ -218,6 +218,7 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 	CLASS 2
 		FIELD field_48405 pos Lnet/minecraft/class_2338$class_2339;
 		FIELD field_48406 remaining I
+		METHOD computeNext computeNext ()Ljava/lang/Object;
 	CLASS 3
 		FIELD field_23380 pos Lnet/minecraft/class_2338$class_2339;
 		FIELD field_48422 manhattanDistance I
@@ -226,9 +227,11 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 		FIELD field_48425 dx I
 		FIELD field_48426 dy I
 		FIELD field_48427 swapZ Z
+		METHOD computeNext computeNext ()Ljava/lang/Object;
 	CLASS 4
 		FIELD field_48434 pos Lnet/minecraft/class_2338$class_2339;
 		FIELD field_48435 index I
+		METHOD computeNext computeNext ()Ljava/lang/Object;
 	CLASS 5
 		FIELD field_48440 directions [Lnet/minecraft/class_2350;
 		FIELD field_48441 pos Lnet/minecraft/class_2338$class_2339;
@@ -239,6 +242,7 @@ CLASS net/minecraft/class_2338 net/minecraft/util/math/BlockPos
 		FIELD field_48446 currentX I
 		FIELD field_48447 currentY I
 		FIELD field_48448 currentZ I
+		METHOD computeNext computeNext ()Ljava/lang/Object;
 	CLASS class_2339 Mutable
 		METHOD <init> (DDD)V
 			ARG 1 x

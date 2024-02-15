@@ -9,10 +9,10 @@ CLASS net/minecraft/class_6898 net/minecraft/registry/entry/RegistryEntryListCod
 		ARG 3 alwaysSerializeAsList
 			COMMENT whether to always serialize the list as a list
 			COMMENT instead of serializing as one entry if the length is {@code 0}
-	METHOD decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 ops
 		ARG 2 input
-	METHOD encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 entryList
 		ARG 2 ops
 		ARG 3 prefix

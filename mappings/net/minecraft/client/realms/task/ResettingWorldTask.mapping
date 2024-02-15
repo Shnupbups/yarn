@@ -10,3 +10,4 @@ CLASS net/minecraft/class_4440 net/minecraft/client/realms/task/ResettingWorldTa
 	METHOD method_32517 resetWorld (Lnet/minecraft/class_4341;J)V
 		ARG 1 client
 		ARG 2 worldId
+	METHOD run run ()V

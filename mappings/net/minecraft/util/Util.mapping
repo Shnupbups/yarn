@@ -418,20 +418,32 @@ CLASS net/minecraft/class_156 net/minecraft/util/Util
 		COMMENT
 		COMMENT @implNote This uses the {@code os.name} system property to determine the operating system.
 		COMMENT @apiNote This is used for opening links.
+	CLASS 1
+		METHOD read read ()J
 	CLASS 2
 		FIELD field_29655 cache Ljava/util/Map;
-		METHOD apply (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;
 			ARG 1 object
 	CLASS 3
 		FIELD field_29657 cache Ljava/util/Map;
-		METHOD apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD apply apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 			ARG 1 a
 			ARG 2 b
 		METHOD method_34867 (Ljava/util/function/BiFunction;Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Object;
 			ARG 1 pair
 	CLASS 4
-		METHOD onTermination (Ljava/lang/Throwable;)V
+		METHOD onTermination onTermination (Ljava/lang/Throwable;)V
 			ARG 1 throwable
+	CLASS 5
+		METHOD getAsBoolean getAsBoolean ()Z
+	CLASS 6
+		METHOD getAsBoolean getAsBoolean ()Z
+	CLASS 7
+		METHOD getAsBoolean getAsBoolean ()Z
+	CLASS 8
+		METHOD getAsBoolean getAsBoolean ()Z
+	CLASS 9
+		METHOD run run ()V
 	CLASS class_158 OperatingSystem
 		COMMENT An enum representing the operating system of the current platform.
 		COMMENT This defines the behavior for opening links.

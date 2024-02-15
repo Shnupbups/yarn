@@ -3,7 +3,8 @@ CLASS net/minecraft/class_2293 net/minecraft/command/argument/ItemPredicateArgum
 	FIELD field_48959 reader Lnet/minecraft/class_9215;
 	METHOD <init> (Lnet/minecraft/class_7157;)V
 		ARG 1 commandRegistryAccess
-	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 context
 		ARG 2 builder
 	METHOD method_9801 itemPredicate (Lnet/minecraft/class_7157;)Lnet/minecraft/class_2293;
@@ -11,6 +12,6 @@ CLASS net/minecraft/class_2293 net/minecraft/command/argument/ItemPredicateArgum
 	METHOD method_9804 getItemStackPredicate (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2293$class_2295;
 		ARG 0 context
 		ARG 1 name
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader
 	CLASS class_2295 ItemStackPredicateArgument

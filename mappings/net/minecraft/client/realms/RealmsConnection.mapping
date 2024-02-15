@@ -13,3 +13,4 @@ CLASS net/minecraft/class_4902 net/minecraft/client/realms/RealmsConnection
 	CLASS 1
 		METHOD method_10210 (Lnet/minecraft/class_2561;)V
 			ARG 0 status
+		METHOD run run ()V

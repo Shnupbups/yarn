@@ -39,6 +39,8 @@ CLASS net/minecraft/class_4381 net/minecraft/client/realms/gui/screen/RealmsBack
 		ARG 1 button
 	METHOD method_25114 (Z)V
 		ARG 1 confirmed
+	CLASS 1
+		METHOD run run ()V
 	CLASS class_4382 BackupObjectSelectionList
 		METHOD method_21172 selectInviteListItem (I)V
 			ARG 1 item

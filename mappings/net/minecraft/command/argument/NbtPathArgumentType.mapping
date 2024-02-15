@@ -11,6 +11,7 @@ CLASS net/minecraft/class_2203 net/minecraft/command/argument/NbtPathArgumentTyp
 	FIELD field_9898 EXAMPLES Ljava/util/Collection;
 	FIELD field_9899 NOTHING_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD field_9900 INVALID_PATH_NODE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
 	METHOD method_47969 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 index
 	METHOD method_47970 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
@@ -35,7 +36,7 @@ CLASS net/minecraft/class_2203 net/minecraft/command/argument/NbtPathArgumentTyp
 	METHOD method_9361 parseNode (Lcom/mojang/brigadier/StringReader;Z)Lnet/minecraft/class_2203$class_2210;
 		ARG 0 reader
 		ARG 1 root
-	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
 		ARG 1 reader
 	CLASS class_2204 AllListElementNode
 		FIELD field_9901 INSTANCE Lnet/minecraft/class_2203$class_2204;

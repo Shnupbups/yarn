@@ -2,3 +2,4 @@ CLASS net/minecraft/class_4355 net/minecraft/client/realms/exception/RealmsServi
 	FIELD field_36320 error Lnet/minecraft/class_4345;
 	METHOD <init> (Lnet/minecraft/class_4345;)V
 		ARG 1 error
+	METHOD getMessage getMessage ()Ljava/lang/String;

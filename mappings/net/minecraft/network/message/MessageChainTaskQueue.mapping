@@ -6,6 +6,7 @@ CLASS net/minecraft/class_7619 net/minecraft/network/message/MessageChainTaskQue
 	FIELD field_40112 closed Z
 	METHOD <init> (Ljava/util/concurrent/Executor;)V
 		ARG 1 executor
+	METHOD close close ()V
 	METHOD method_44903 (Ljava/util/function/Consumer;Ljava/lang/Object;)V
 		ARG 2 object
 	METHOD method_44904 (Ljava/lang/Throwable;)Ljava/lang/Void;

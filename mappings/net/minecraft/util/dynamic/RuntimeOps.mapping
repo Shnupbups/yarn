@@ -9,75 +9,79 @@ CLASS net/minecraft/class_8806 net/minecraft/util/dynamic/RuntimeOps
 	COMMENT
 	COMMENT @see Codecs#BASIC_OBJECT
 	FIELD field_46239 INSTANCE Lnet/minecraft/class_8806;
-	METHOD convertTo (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD convertTo convertTo (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 1 ops
 		ARG 2 object
-	METHOD createBoolean (Z)Ljava/lang/Object;
+	METHOD createBoolean createBoolean (Z)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createByte (B)Ljava/lang/Object;
+	METHOD createByte createByte (B)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createByteList (Ljava/nio/ByteBuffer;)Ljava/lang/Object;
+	METHOD createByteList createByteList (Ljava/nio/ByteBuffer;)Ljava/lang/Object;
 		ARG 1 buf
-	METHOD createDouble (D)Ljava/lang/Object;
+	METHOD createDouble createDouble (D)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createFloat (F)Ljava/lang/Object;
+	METHOD createFloat createFloat (F)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createInt (I)Ljava/lang/Object;
+	METHOD createInt createInt (I)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createIntList (Ljava/util/stream/IntStream;)Ljava/lang/Object;
+	METHOD createIntList createIntList (Ljava/util/stream/IntStream;)Ljava/lang/Object;
 		ARG 1 stream
-	METHOD createList (Ljava/util/stream/Stream;)Ljava/lang/Object;
+	METHOD createList createList (Ljava/util/stream/Stream;)Ljava/lang/Object;
 		ARG 1 stream
-	METHOD createLong (J)Ljava/lang/Object;
+	METHOD createLong createLong (J)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createLongList (Ljava/util/stream/LongStream;)Ljava/lang/Object;
+	METHOD createLongList createLongList (Ljava/util/stream/LongStream;)Ljava/lang/Object;
 		ARG 1 stream
-	METHOD createMap (Ljava/util/Map;)Ljava/lang/Object;
+	METHOD createMap createMap (Ljava/util/Map;)Ljava/lang/Object;
 		ARG 1 map
-	METHOD createMap (Ljava/util/stream/Stream;)Ljava/lang/Object;
+	METHOD createMap createMap (Ljava/util/stream/Stream;)Ljava/lang/Object;
 		ARG 1 entries
-	METHOD createNumeric (Ljava/lang/Number;)Ljava/lang/Object;
+	METHOD createNumeric createNumeric (Ljava/lang/Number;)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createShort (S)Ljava/lang/Object;
+	METHOD createShort createShort (S)Ljava/lang/Object;
 		ARG 1 value
-	METHOD createString (Ljava/lang/String;)Ljava/lang/Object;
+	METHOD createString createString (Ljava/lang/String;)Ljava/lang/Object;
 		ARG 1 value
-	METHOD getBooleanValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD empty empty ()Ljava/lang/Object;
+	METHOD emptyList emptyList ()Ljava/lang/Object;
+	METHOD emptyMap emptyMap ()Ljava/lang/Object;
+	METHOD getBooleanValue getBooleanValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 object
-	METHOD getByteBuffer (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getByteBuffer getByteBuffer (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 byteList
-	METHOD getIntStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getIntStream getIntStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 intList
-	METHOD getList (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getList getList (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 list
-	METHOD getLongStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getLongStream getLongStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 longList
-	METHOD getMap (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getMap getMap (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 map
-	METHOD getMapEntries (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getMapEntries getMapEntries (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 map
-	METHOD getMapValues (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getMapValues getMapValues (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 map
-	METHOD getNumberValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getNumberValue getNumberValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 object
-	METHOD getStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getStream getStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 list
-	METHOD getStringValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getStringValue getStringValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 object
-	METHOD mergeToList (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD mapBuilder mapBuilder ()Lcom/mojang/serialization/RecordBuilder;
+	METHOD mergeToList mergeToList (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 list
 		ARG 2 value
-	METHOD mergeToList (Ljava/lang/Object;Ljava/util/List;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToList mergeToList (Ljava/lang/Object;Ljava/util/List;)Lcom/mojang/serialization/DataResult;
 		ARG 1 list
 		ARG 2 values
-	METHOD mergeToMap (Ljava/lang/Object;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToMap mergeToMap (Ljava/lang/Object;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
 		ARG 1 map
 		ARG 2 map2
-	METHOD mergeToMap (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToMap mergeToMap (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 map
 		ARG 2 key
 		ARG 3 value
-	METHOD mergeToMap (Ljava/lang/Object;Ljava/util/Map;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToMap mergeToMap (Ljava/lang/Object;Ljava/util/Map;)Lcom/mojang/serialization/DataResult;
 		ARG 1 map
 		ARG 2 map2
 	METHOD method_53922 (Lcom/google/common/collect/ImmutableMap$Builder;Lcom/mojang/datafixers/util/Pair;)V
@@ -90,21 +94,23 @@ CLASS net/minecraft/class_8806 net/minecraft/util/dynamic/RuntimeOps
 		ARG 0 map
 	METHOD method_53932 (Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 0 value
-	METHOD remove (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+	METHOD remove remove (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 		ARG 1 map
 		ARG 2 key
 	CLASS 1
-		METHOD get (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD entries entries ()Ljava/util/stream/Stream;
+		METHOD get get (Ljava/lang/Object;)Ljava/lang/Object;
 			ARG 1 key
-		METHOD get (Ljava/lang/String;)Ljava/lang/Object;
+		METHOD get get (Ljava/lang/String;)Ljava/lang/Object;
 			ARG 1 key
 	CLASS class_8807 MapBuilder
 		METHOD <init> (Lcom/mojang/serialization/DynamicOps;)V
 			ARG 1 ops
-		METHOD append (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD append append (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 			ARG 1 key
 			ARG 2 value
 			ARG 3 builder
-		METHOD build (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD build build (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 			ARG 1 builder
 			ARG 2 map
+		METHOD initBuilder initBuilder ()Ljava/lang/Object;
